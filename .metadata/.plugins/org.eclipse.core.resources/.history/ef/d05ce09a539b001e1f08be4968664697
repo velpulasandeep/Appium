@@ -1,0 +1,12 @@
+package AppiumPackage;
+
+import org.testng.annotations.Test;
+
+public class LongPressFunctionality  extends BaseClass{
+	@Test
+	public void longPress()
+	{
+		
+	}
+
+}

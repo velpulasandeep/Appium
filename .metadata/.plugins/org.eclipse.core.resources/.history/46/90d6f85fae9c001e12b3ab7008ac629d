@@ -1,0 +1,13 @@
+package AppiumPackage;
+
+import org.testng.annotations.Test;
+
+public class EcommerceApp extends BaseClass {
+	
+	@Test
+	public void fillForm()
+	{
+		
+	}
+
+}
