@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumPackage.EcommerceApp3">
+      <class name="AppiumPackage.AddToCartImplementation">
         <methods>
-          <include name="base"/>
+          <include name="setUp"/>
           <include name="fillForm"/>
+          <include name="fillForm1"/>
         </methods>
-      </class> <!-- AppiumPackage.EcommerceApp3 -->
+      </class> <!-- AppiumPackage.AddToCartImplementation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
